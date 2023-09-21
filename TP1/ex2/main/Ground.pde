@@ -8,7 +8,7 @@ public class Ground {
   PShape ground;
   PImage texture;
   /**
-   * Here we create ground by loading shape, texture 
+   * Here we create ground by loading shape, texture
    * also we scale obj to make it bigger than podium
    */
   Ground() {

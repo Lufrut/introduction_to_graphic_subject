@@ -58,10 +58,10 @@ public class Camera {
     m_keyMap[4] = false;
     m_keyMap[5] = false;
   }
-  
+
   public void setPosition(PVector p_pos) {
     m_position.set(p_pos);
-    m_target = PVector.add(m_position, m_viewDirection);    
+    m_target = PVector.add(m_position, m_viewDirection);
   }
 
   public void draw() {
@@ -95,8 +95,8 @@ public class Camera {
     }
 
     m_applet.camera(m_position.x, m_position.y, m_position.z,
-                    m_target.x, m_target.y, m_target.z,
-                    m_up.x, m_up.y, m_up.z);
+      m_target.x, m_target.y, m_target.z,
+      m_up.x, m_up.y, m_up.z);
   }
 
   public void keyEvent(KeyEvent p_event) {
